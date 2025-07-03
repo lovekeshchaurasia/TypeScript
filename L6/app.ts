@@ -20,7 +20,7 @@
 //private , public access modifier
 class Department {
     name : string;
-    employees:string[] = []
+    employees:string[] = [];
     constructor(n : string) {
         this.name = n;
     }
@@ -47,3 +47,8 @@ accounting.addEmployee("Striver")
 accounting.printEmployeeInformation();
 
 accounting.employees = ['xyz'];
+
+//access modifier
+//private
+//public
+//protected
